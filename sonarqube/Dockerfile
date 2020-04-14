@@ -1,4 +1,4 @@
-FROM sonarqube:7.9.2-community
+FROM sonarqube:8.2-community
 
 # Became root
 USER root
