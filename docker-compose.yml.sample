@@ -3,7 +3,7 @@ version: "3.7"
 
 services:
   sonarqube:
-    image: tpbtools/gp-sonarqube:1.0.0
+    image: ayudadigital/gp-sonarqube:1.0.0
     expose:
       - 9000
     ports:
