@@ -47,6 +47,7 @@ pipeline {
             steps {
                 buildAndPublishDockerImage()
                 jplMakeRelease(cfg, true)
+                deleteDir()
             }
         }
     }
@@ -54,9 +55,6 @@ pipeline {
     post {
         always {
             jplPostBuild(cfg)
-        }
-        cleanup {
-            deleteDir()
         }
     }
 
