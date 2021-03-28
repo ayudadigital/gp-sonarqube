@@ -1,5 +1,22 @@
 # Changelog
 
+## v2.0.1 (2021-03-28)
+
+### Changes
+
+#### Build
+
+* Update Auto Release Log adding v2.0.1 info with JPL ([d04c7b9](https://github.com/ayudadigital/gp-sonarqube/commit/d04c7b9))
+* Use jpl v6.2.0 ([c2933b0](https://github.com/ayudadigital/gp-sonarqube/commit/c2933b0))
+
+#### Docs
+
+* Generate v2.0.0 changelog with JPL ([7e87752](https://github.com/ayudadigital/gp-sonarqube/commit/7e87752))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.0.0 (2020-04-24)
 
 ### Changes
